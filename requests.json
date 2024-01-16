@@ -1,0 +1,468 @@
+{
+	"sigsauer": {
+		"url": "https://sigsauer.com/dealer-locator",
+		"locs": {
+			"url": "https://www.sigsauer.com/amlocator/index/ajax/",
+			"headers": {
+				"accept": "*/*",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+				"pragma": "no-cache",
+				"x-requested-with": "XMLHttpRequest",
+				"Referer": "https://www.sigsauer.com/dealer-locator",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": "lat={latitude}&lng={longitude}&radius={radius}&product=0&category=0",
+			"method": "post"
+		}
+	},
+	"gunbroker": {
+		"url": "https://gunbroker.com/ffl/index",
+		"locs": {
+			"url": "https://www.gunbroker.com/api/FFLs/Zip/{zipcode}?Radius={radius}&Detailed=true&Sort=1&PageIndex={page}",
+			"headers": {
+				"accept": "*/*",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"pragma": "no-cache",
+				"x-requested-with": "XMLHttpRequest",
+				"Referer": "https://www.gunbroker.com/ffl/index",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": null,
+			"method": "get"
+		}
+	},
+	"budsgunshop": {
+		"url": "https://budsgunshop.com/ffl.php",
+		"locs": {
+			"url": "https://www.budsgunshop.com/getFFLDealerList.php?v=2&contact_us=1&zipcode={zipcode}&sortBy=1&max_distance={radius}",
+			"headers": {
+				"accept": "*/*",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"pragma": "no-cache",
+				"x-requested-with": "XMLHttpRequest",
+				"Referer": "https://www.budsgunshop.com/ffl.php",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": null,
+			"method": "get"
+		},
+		"loc": {
+			"url": "https://www.budsgunshop.com/getFFLDealerInfo.php?nojvs=0&show_button=false&contact_us=false&id={id}",
+			"headers": {
+				"accept": "*/*",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"pragma": "no-cache",
+				"x-requested-with": "XMLHttpRequest",
+				"Referer": "https://www.budsgunshop.com/ffl.php",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": null,
+			"method": "get"
+		},
+		"latlng": {
+			"url": "https://www.budsgunshop.com/ajax/getLatLon_Ajax.php",
+			"headers": {
+				"accept": "*/*",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+				"pragma": "no-cache",
+				"x-requested-with": "XMLHttpRequest",
+				"Referer": "https://www.budsgunshop.com/ffl.php",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": "dealer_id={id}&getLatLon=true",
+			"method": "post"
+		}
+	},
+	"gunstores": {
+		"url": "https://gunstores.com/ez-search",
+		"locs": {
+			"url": "https://gunstores.com/retail-store-controller?ajax=true&url_action=get_ffl_dealers",
+			"headers": {
+				"accept": "text/plain, */*; q=0.01",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+				"pragma": "no-cache",
+				"x-requested-with": "XMLHttpRequest",
+				"Referer": "https://gunstores.com/ez-search",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": "radius={radius}&postal_code={zipcode}&search_text=&product_manufacturer_codes=&product_department_codes=&has_gun_range=0&has_location=true&has_active_subscription=true&have_price_structure_only=true&update_coordinates=true&limit=1000&offset=0&json_mode=true",
+			"method": "post"
+		},
+		"loc": {
+			"url": "https://gunstores.com/ez-search?ajax=true&url_action=get_dealer_page&&ez_search=true&ffl_id={id}",
+			"headers": {
+				"accept": "text/plain, */*; q=0.01",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"pragma": "no-cache",
+				"x-requested-with": "XMLHttpRequest",
+				"Referer": "https://gunstores.com/ez-search",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": null,
+			"method": "get"
+		}
+	},
+	"rockriverarms": {
+		"url": "https://rockriverarms.com/index.cfm?fuseaction=page.display&page_id=25",
+		"alllocs": {
+			"url": "https://rockriverarms.com/index.cfm?fuseaction=page.display&page_id=25",
+			"headers": {
+				"accept": "application/xml, text/xml, */*; q=0.01",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"content-type": "application/xml; charset=utf-8",
+				"pragma": "no-cache",
+				"Referer": "https://www.rockriverarms.com/",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": null,
+			"method": "get"
+		}
+	},
+	"impactguns": {
+		"url": "https://impactguns.com/ffl-dealer-lookup",
+		"locs": {
+			"url": "https://impactwebservices.azurewebsites.net/home/getdealers/{zipcode}/{radius}/0",
+			"headers": {
+				"accept": "application/xml, text/xml, */*; q=0.01",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"content-type": "application/xml; charset=utf-8",
+				"pragma": "no-cache",
+				"Referer": "https://www.impactguns.com/",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": null,
+			"method": "post"
+		}
+	},
+	"sportsmansguide": {
+		"url": "https://sportsmansguide.com/ffllookup",
+		"locs": {
+			"url": "https://www.sportsmansguide.com/ffllookup/getfflmapdisplay",
+			"headers": {
+				"accept": "application/json, text/plain, */*",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"content-type": "application/json;charset=UTF-8",
+				"pragma": "no-cache",
+				"Referer": "https://www.sportsmansguide.com/ffllookup",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": "{\"request\":{\"a\":\"{zipcode}\",\"AutoRange\":false,\"Miles\":{radius},\"Skip\":false,\"Address\":{\"FirstName\":\"\",\"LastName\":\"\",\"Company\":\"\",\"Address1\":\"\",\"Address2\":\"\",\"City\":\"\",\"State\":\"\",\"StateList\":[],\"Zip\":\"\",\"Country\":\"US\",\"CountryList\":[],\"DayPhone\":\"\",\"NightPhone\":\"\",\"AcceptIParcel\":false,\"DateOfBirth\":\"\",\"DOBMonth\":null,\"DOBDay\":null,\"DOBYear\":null,\"EmailAddress\":\"\",\"IsDefault\":false,\"Description\":null,\"AddressNumber\":null,\"Message\":\"Unable to save address. Please enter First Name\",\"IsError\":false,\"AddressTypeIndicator\":\"\",\"SaveToBook\":false,\"IsCompleteAddress\":false,\"IsCompleteBirthday\":false,\"AddressType\":0}}}",
+			"method": "post"
+		}
+	},
+	"midwayusa": {
+		"url": "https://midwayusa.com/ffl-near-me",
+		"locs": {
+			"url": "https://www.midwayusa.com/api/ffl/search?page={page}&zipCode={zipcode}&radius={radius}",
+			"headers": {
+				"accept": "*/*",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"pragma": "no-cache",
+				"Referer": "https://www.midwayusa.com/ffl-near-me",
+				"Referrer-Policy": "strict-origin-when-cross-origin",
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+				"Cookie": "MWAcquire=MarketingChannel=Direct%20Load%20|||%20Version=3; MWSessionId=0evxguivgjmzkplfpcmwgh1z; SiteVersion=VAR1; _ALGOLIA=anonymous-75da757f-830c-47aa-a222-3a4baae3edd9; consent=; _gcl_au=1.1.588827325.1701350142; Token={\"TokenValue\":\"b09f5a4d-2641-4b6f-8504-2c6f7cb7b8c8\",\"Known\":false}; MWCartSummary={\"Total\":0.0,\"ItemCount\":0}; _scid=387346b9-f592-43ca-ade8-c8c8e3f77085; _rdt_uuid=1701350141840.9c797379-38c2-49ab-bb73-de3a6ecded82; __pdst=bda4f0816e2d4004a4da058dfceab302; _tt_enable_cookie=1; _ttp=wJvBMLRBY1BR3BiqO4XpBQ9dN4u; _pin_unauth=dWlkPU16azVPRGM1WW1ZdE1qWXlPQzAwWlRGaExXSmpNamd0WVdGbFlqVTJOREkxWlRZeA; _gid=GA1.2.1272967818.1702245250; _sctr=1%7C1702188000000; _clck=r70yx3%7C2%7Cfhg%7C0%7C1429; _scid_r=387346b9-f592-43ca-ade8-c8c8e3f77085; _uetsid=a5e2ac7097a611ee9f7121010c83d2df; _uetvid=90558a908f8211eeac95297043f75bf8; _ga_2ECVQ52PT1=GS1.1.1702307457.6.1.1702307679.60.0.0; _ga=GA1.2.969229171.1701350141; _derived_epik=dj0yJnU9Q2hUMmZsUDZMeVpXM3kyYjZIT25FS0lxOWxOZWRlOEEmbj1TN3I4Q0g1aDk3d050WTVKTEVaMkh3Jm09MSZ0PUFBQUFBR1YzSjJBJnJtPTEmcnQ9QUFBQUFHVjNKMkEmc3A9Mg; cto_bundle=6Tucwl9LM0NWc2VRVWJkSDl2M2loc2tTWTlHbnFad0tYa3k5cjYyNGhxV0VPOWprZmo1N3olMkZLRXhNYkY3VjVrSjVuVmF5NCUyQjlvOWtsQ0R2NyUyRlUzMkc4THJhMHVhRXJOdiUyQjlzdmN3THclMkI5ck55NzVISSUyRlg0UU1nQnd6NWdCckglMkJhNzRNdkVNQUFqcTlRJTJCSWlmZXZQVHA0OGZXdjB4dlY0MlZLJTJCNU13dW9Kc1luMmFsV3FWYzJacDI4ZHBPbmdGME1LbGthR3FLanR1dk9ub3VaVTMlMkJzUm1UZ0ElM0QlM0Q; fs_uid=#XWGCH#1a25411f-5571-4779-8c64-e0f3296603a0:be621b24-8817-41ec-8936-531b122d5a48:1702319755250::1#/1732886143; _clsk=ou4667%7C1702319755409%7C1%7C1%7Cq.clarity.ms%2Fcollect; MWConversion=MarketingChannel=Referring%20Sites%20|||%20ReferringUrl=https%3A%2F%2Fwww.midwayusa.com%2Fffl-near-me%20|||%20Version=3; fs_lua=1.1702321791557"
+			},
+			"data": null,
+			"method": "get"
+		}
+	},
+	"grabagun": {
+		"url": "https://grabagun.com/ffl-locator",
+		"locs": {
+			"url": "https://grabagun.com/graphql",
+			"headers": {
+				"accept": "application/json, text/javascript, */*; q=0.01",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"content-type": "application/json",
+				"pragma": "no-cache",
+				"x-newrelic-id": "VgQOV15QDRACXFlUAQcCV1U=",
+				"x-requested-with": "XMLHttpRequest",
+				"Referer": "https://grabagun.com/ffl-locator",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": "{\"query\":\"query getDealers(\\n    $pageSize: Int,\\n    $currentPage: Int,\\n    $lat: Float,\\n    $lng: Float,\\n    $distance: Float,\\n    $search: String,\\n    $sotOnly: Boolean\\n) {\\n    dealers(\\n        pageSize: $pageSize,\\n        currentPage: $currentPage,\\n        distance: {\\n            lat: $lat,\\n            lng: $lng,\\n            distance: $distance\\n        },\\n        sotOnly: $sotOnly,\\n        search: $search\\n    ) {\\n        total_count\\n        page_info {\\n            current_page\\n            page_size\\n            total_pages\\n        }\\n        items {\\n            id\\n            address\\n            phone\\n            lat\\n            lng\\n            dealer_name\\n            expiration_date\\n            is_class3\\n        }\\n    }\\n}\\n\",\"variables\":{\"lat\":{latitude},\"lng\":{longitude},\"distance\":{radius},\"pageSize\":25,\"currentPage\":1},\"operationName\":null}",
+			"method": "post"
+		}
+	},
+	"brownells": {
+		"url": "https://brownells.com/ffl-locator",
+		"session": {
+			"url": "https://www.brownells.com/",
+			"headers": {
+				"accept": "*/*",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"Referer": "https://www.brownells.com/",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": null,
+			"method": "get"
+		},
+		"locs": {
+			"url": "https://www.brownells.com/FFLPage/GetDealersByRange",
+			"headers": {
+				"accept": "*/*",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"bro-p": "1488",
+				"cache-control": "no-cache",
+				"content-type": "application/json; charset=UTF-8",
+				"pragma": "no-cache",
+				"x-requested-with": "XMLHttpRequest",
+				"Referer": "https://www.brownells.com/ffl-locator/?zipcode={zipcode}",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": "{\"SearchType\":\"location\",\"ZipCode\":\"{zipcode}\",\"Range\":{radius},\"Sort\":0,\"Latitude\":0,\"Longitude\":0}",
+			"method": "post"
+		}
+	},
+	"omahaoutdoors": {
+		"url": "https://omahaoutdoors.com/find-ffl",
+		"locs": {
+			"url": "https://www.omahaoutdoors.com/wp-content/plugins/ffleasy/search.php?phrase=&format=json",
+			"headers": {
+				"accept": "text/html, */*; q=0.01",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+				"pragma": "no-cache",
+				"x-requested-with": "XMLHttpRequest",
+				"Referer": "https://www.omahaoutdoors.com/find-ffl/",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": "phrase=&prefered_id=&search_zip={zipcode}&search_range={radius}&userlogedin=",
+			"method": "post"
+		}
+	},
+	"palmettostatearmory": {
+		"url": "https://palmettostatearmory.com/ffl-locator.html",
+		"locs": {
+			"url": "https://palmettostatearmory.com/ffl_locator/search?coordinates%5Blat%5D={latitude}&coordinates%5Blng%5D={longitude}&radiusExpandCount=3&previousCount=0",
+			"headers": {
+				"accept": "*/*",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"pragma": "no-cache",
+				"x-requested-with": "XMLHttpRequest",
+				"Referer": "https://palmettostatearmory.com/ffl-locator.html",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": null,
+			"method": "get"
+		}
+	},
+	"browning": {
+		"url": "https://browning.com/dealers/dealer-locator.html",
+		"locs": {
+			"url": "https://www.browning.com/dealers/dealer-locator/jcr:content.dealerlist.lat{latitude}.lon{longitude}.countryUS.zip{zipcode}.range{radius}.productall.json",
+			"headers": {
+				"accept": "application/json, text/javascript, */*; q=0.01",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"pragma": "no-cache",
+				"x-requested-with": "XMLHttpRequest",
+				"Referer": "https://www.browning.com/dealers/dealer-locator.html",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": null,
+			"method": "get"
+		}
+	},
+	"smith-wesson": {
+		"url": "https://smith-wesson.com/dealer-locator",
+		"locs": {
+			"url": "https://dealerresources.smith-wesson.com/api/dealers?lng={longitude}&lat={latitude}&page={page}",
+			"headers": {
+				"accept": "application/json, text/plain, */*",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"pragma": "no-cache",
+				"Referer": "https://www.smith-wesson.com/",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": null,
+			"method": "get"
+		}
+	},
+	"ffl123": {
+		"url": "https://www.ffl123.com/class-3-dealers-list/",
+		"alllocs": {
+			"url": "https://www.ffl123.com/class-3-dealers-list/",
+			"headers": {
+				"accept": "application/xml, text/xml, */*; q=0.01",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"content-type": "application/xml; charset=utf-8",
+				"pragma": "no-cache",
+				"Referer": "https://www.ffl123.com/",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": null,
+			"method": "get"
+		}
+	},
+	"goexposoftware": {
+		"url": "https://n1b.goexposoftware.com/events/ss24/goExpo/exhibitor/listExhibitorProfiles.php?list_rows_per_page=5000",
+		"alllocs": {
+			"url": "https://n1b.goexposoftware.com/events/ss24/goExpo/exhibitor/listExhibitorProfiles.php?list_rows_per_page=5000",
+			"headers": {
+				"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"pragma": "no-cache",
+				"upgrade-insecure-requests": "1",
+				"cookie": "PHPSESSID=8lceej9n1185lln70subso6s2d; __utma=164899296.1053510532.1702772130.1702772130.1702772130.1; __utmc=164899296; __utmz=164899296.1702772130.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=164899296.12.10.1702772130; GE_SPONSORS_NEXT_OFFSET=10",
+				"Referer": "https://n1b.goexposoftware.com/events/ss24/goExpo/exhibitor/listExhibitorProfiles.php",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": null,
+			"method": "get"
+		},
+		"loc": {
+			"url": "https://n1b.goexposoftware.com/events/ss24/goExpo/exhibitor/viewExhibitorProfile.php?__id={id}",
+			"headers": {
+				"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"pragma": "no-cache",
+				"upgrade-insecure-requests": "1",
+				"cookie": "PHPSESSID=8lceej9n1185lln70subso6s2d; __utma=164899296.1053510532.1702772130.1702772130.1702772130.1; __utmc=164899296; __utmz=164899296.1702772130.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=164899296.12.10.1702772130; GE_SPONSORS_NEXT_OFFSET=10",
+				"Referer": "https://n1b.goexposoftware.com/events/ss24/goExpo/exhibitor/listExhibitorProfiles.php",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": null,
+			"method": "get"
+		},
+		"contact": {
+			"url": "https://n1b.goexposoftware.com/events/ss24/goExpo/user/chatNew.php?ui={id}",
+			"headers": {
+				"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"pragma": "no-cache",
+				"upgrade-insecure-requests": "1",
+				"cookie": "PHPSESSID=8lceej9n1185lln70subso6s2d; __utmc=164899296; __utmz=164899296.1702772130.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=164899296.1053510532.1702772130.1702872300.1702941709.4; __utmt=1; __utmb=164899296.10.10.1702941709; GE_SPONSORS_NEXT_OFFSET=6",
+				"Referer": "https://n1b.goexposoftware.com/events/ss24/goExpo/exhibitor/listExhibitorProfiles.php",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": null,
+			"method": "get"
+		}
+	},
+	"sportsmans": {
+		"url": "https://stores.sportsmans.com/sportsmans-warehouse/us",
+		"csrf": {
+			"url": "https://www.sportsmans.com/",
+			"headers": {
+				"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"pragma": "no-cache",
+				"upgrade-insecure-requests": "1",
+				"Referer": "https://www.sportsmans.com/",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": null,
+			"method": "get"
+		},
+		"alllocs": {
+			"url": "https://www.sportsmans.com/store-pickup/1851962/pointOfServices",
+			"headers": {
+				"accept": "*/*",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+				"pragma": "no-cache",
+				"x-requested-with": "XMLHttpRequest",
+				"Referer": "https://www.sportsmans.com/shooting-gear-gun-supplies/handguns/springfield-armory-hellcat-pro-osp-threaded-9mm-luger-44in-black-melonite-pistol-171-rounds/p/1851962",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": "locationQuery=&cartPage=false&CSRFToken={CSRFToken}",
+			"method": "post"
+		},
+		"loc": {
+			"url": "https://stores.sportsmans.com/sportsmans-warehouse/us/ak/soldotna/44402-sterling-hwy",
+			"headers": {
+				"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"pragma": "no-cache",
+				"upgrade-insecure-requests": "1",
+				"cookie": "mt.v=2.1665052719.1702946447384; _gcl_au=1.1.1964039694.1702946448; cf_clearance=Bu1Pq8MDsvxqP7G4CxoFEUOV383KqpraC_EF_Sdl6PY-1702946449-0-1-dab92ccd.52b596a5.8db8732d-0.2.1702946449; GSIDBJ0gYnZszy2T=4f553922-7ce8-45e2-b675-7e25f3edf4a8; STSIDBJ0gYnZszy2T=b81577b1-041a-4ccb-8d3c-69c5cfac98ca; _gid=GA1.2.1941623247.1702946449; ltkSubscriber-footer=eyJsdGtDaGFubmVsIjoiZW1haWwiLCJsdGtUcmlnZ2VyIjoibG9hZCIsImx0a0VtYWlsIjoiIn0%3D; ltkSubscriber-footer-sms=eyJsdGtDaGFubmVsIjoic21zIiwibHRrVHJpZ2dlciI6ImxvYWQiLCJsdGtFbWFpbCI6IiJ9; ltkSubscriber-CreditCard=eyJsdGtDaGFubmVsIjoiZW1haWwiLCJsdGtUcmlnZ2VyIjoibG9hZCJ9; ltkSubscriber-BISSignUp=eyJsdGtDaGFubmVsIjoiZW1haWwiLCJsdGtUcmlnZ2VyIjoibG9hZCJ9; _clck=nbzf1b%7C2%7Cfho%7C0%7C1448; __cf_bm=It7lg4aMF0z9ugRby4YDZFhGf8mc8RRzxC0_W_C.7F4-1702947776-1-AWTbpCisiibaoMyq14wFHKPodymRo+9kp18lYnfA0XI0mUMCdqjnmo3bKaCN5HgaNs34ayH0xBhJEdnshDe5Yfc=; ltkpopup-session-depth=2-4; _br_uid_2=uid%3D1440475263997%3Av%3D16.0%3Ats%3D1702946448337%3Ahc%3D2; _ga=GA1.2.452746533.1702946448; _uetsid=418922f09e0711eeaf753bb9a13ae3f4; _uetvid=4189c4d09e0711ee8b09cbb1cdced61e; _clsk=1qf972t%7C1702947816833%7C3%7C0%7Cq.clarity.ms%2Fcollect; avmws=1.03970503856580e692c4eee727319108.142799605.1702946450.1702947817.2.1692274213; _ga_Y3DLDVG04W=GS1.1.1702946448.1.1.1702947816.4.0.0; _ga_Z40EKK4WJ5=GS1.2.1702947776.1.1.1702947908.0.0.0; cf_clearance=H_K5nTHdwCWE7RPV8Km7njxL94IgpAh9mdlAJY9ZpF8-1702947909-0-1-dab92ccd.69781aab.8db8732d-0.2.1702947909",
+				"Referer": "https://www.sportsmans.com/",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": null,
+			"method": "get"
+		}
+	},
+	"guns": {
+		"url": "https://www.guns.com/checkout",
+		"locs": {
+			"url": "https://ffl.guns.com/ffl/address?street=193+Old+Mayhew+Road,+Apt+50&city=Starkville&state=MS&zip=39759&radius=300&specific_state=0",
+			"headers": {
+				"accept": "application/json, text/plain, */*",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"pragma": "no-cache",
+				"x-csrf-token": "atNPUn1RadZ23Z8fPZn6rb5ytLDq9kRtg85LLdJb",
+				"x-requested-with": "XMLHttpRequest",
+				"Referer": "https://www.guns.com/",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": null,
+			"method": "get"
+		}
+	},
+	"silencershop": {
+		"url": "https://www.silencershop.com/storelocator?store_group=store&flag=2#",
+		"locs": {
+			"url": "https://www.silencershop.com/storelocator/index/loadstore/",
+			"headers": {
+				"accept": "application/json, text/javascript, */*; q=0.01",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+				"pragma": "no-cache",
+				"x-requested-with": "XMLHttpRequest",
+				"cookie": "PHPSESSID=pnloefq7i4ddacjngheq4uf7b8; mage-translation-storage=%7B%7D; mage-translation-file-version=%7B%7D; form_key=6gM5zylTHpw8ehat; SNS=1; _sn_m={\"r\":{\"n\":1}}; geo_ip_location=a%3A24%3A%7Bs%3A17%3A%22geoplugin_request%22%3Bs%3A15%3A%22170.253.141.196%22%3Bs%3A16%3A%22geoplugin_status%22%3Bi%3A200%3Bs%3A15%3A%22geoplugin_delay%22%3Bs%3A3%3A%221ms%22%3Bs%3A16%3A%22geoplugin_credit%22%3Bs%3A148%3A%22Some+of+the+returned+data+includes+GeoLite2+data+created+by+MaxMind%2C+available+from+%3Ca+href%3D%5C%27https%3A%2F%2Fwww.maxmind.com%5C%27%3Ehttps%3A%2F%2Fwww.maxmind.com%3C%2Fa%3E.%22%3Bs%3A14%3A%22geoplugin_city%22%3Bs%3A10%3A%22Starkville%22%3Bs%3A16%3A%22geoplugin_region%22%3Bs%3A11%3A%22Mississippi%22%3Bs%3A20%3A%22geoplugin_regionCode%22%3Bs%3A2%3A%22MS%22%3Bs%3A20%3A%22geoplugin_regionName%22%3Bs%3A11%3A%22Mississippi%22%3Bs%3A18%3A%22geoplugin_areaCode%22%3Bs%3A0%3A%22%22%3Bs%3A17%3A%22geoplugin_dmaCode%22%3Bs%3A3%3A%22673%22%3Bs%3A21%3A%22geoplugin_countryCode%22%3Bs%3A2%3A%22US%22%3Bs%3A21%3A%22geoplugin_countryName%22%3Bs%3A13%3A%22United+States%22%3Bs%3A14%3A%22geoplugin_inEU%22%3Bi%3A0%3Bs%3A19%3A%22geoplugin_euVATrate%22%3Bb%3A0%3Bs%3A23%3A%22geoplugin_continentCode%22%3Bs%3A2%3A%22NA%22%3Bs%3A23%3A%22geoplugin_continentName%22%3Bs%3A13%3A%22North+America%22%3Bs%3A18%3A%22geoplugin_latitude%22%3Bs%3A7%3A%2233.4474%22%3Bs%3A19%3A%22geoplugin_longitude%22%3Bs%3A8%3A%22-88.8205%22%3Bs%3A32%3A%22geoplugin_locationAccuracyRadius%22%3Bs%3A2%3A%2220%22%3Bs%3A18%3A%22geoplugin_timezone%22%3Bs%3A15%3A%22America%2FChicago%22%3Bs%3A22%3A%22geoplugin_currencyCode%22%3Bs%3A3%3A%22USD%22%3Bs%3A24%3A%22geoplugin_currencySymbol%22%3Bs%3A5%3A%22%26%2336%3B%22%3Bs%3A29%3A%22geoplugin_currencySymbol_UTF8%22%3Bs%3A1%3A%22%24%22%3Bs%3A27%3A%22geoplugin_currencyConverter%22%3Bs%3A1%3A%220%22%3B%7D; SIG-API=qoXlB08Z18OXgtDbOEnS0v3H1kT1qE27; lagrange_session=e38ba075-73da-497a-a67f-9b29bf57ec4b; wcid=Q7MThsFl6aLdAAAC; mage-cache-storage=%7B%7D; mage-cache-storage-section-invalidation=%7B%7D; mage-cache-sessid=true; mage-banners-cache-storage=%7B%7D; _sn_a={\"a\":{\"s\":1704419933079,\"e\":1704419933078}}; _sn_n={\"a\":{\"i\":\"d2d6a608-391e-43c0-a9e6-2ebc368f03b2\"}}; mage-messages=; _dripSegmentcdcb1406ea2e47ebbc1620c632764354_889208020=186221; recently_viewed_product=%7B%7D; recently_viewed_product_previous=%7B%7D; recently_compared_product=%7B%7D; recently_compared_product_previous=%7B%7D; product_data_storage=%7B%7D; _gid=GA1.2.1330008198.1704419933; wlid=NjYyNDM0NzIzMDM1NDg5NzExOA==; _drip_client_1983949=vid%253Dcdcb1406ea2e47ebbc1620c632764354%2526pageViews%253D3%2526sessionPageCount%253D2%2526lastVisitedAt%253D1704419999857%2526weeklySessionCount%253D2%2526lastSessionAt%253D1704419932733%2526form%255B186221%255D%255Bauto_open%255D%253D1704144707%2526form%255B186221%255D%255Bmanual_close%255D%253D1704144713; _ga_G0QZZE9CXP=GS1.1.1704419933.3.1.1704420000.0.0.0; _ga=GA1.1.114638623.1704144692; _dc_gtm_UA-49650133-1=1; private_content_version=979cd740c09a9433c6072aaf0b0b4ac5; section_data_ids=%7B%22customer%22%3A1704420001%2C%22compare-products%22%3A1704420001%2C%22last-ordered-items%22%3A1704420001%2C%22cart%22%3A1704420001%2C%22directory-data%22%3A1704420001%2C%22captcha%22%3A1704420001%2C%22wishlist%22%3A1704420001%2C%22instant-purchase%22%3A1704420001%2C%22multiplewishlist%22%3A1704420001%2C%22persistent%22%3A1704420001%2C%22review%22%3A1704420001%2C%22checkout-info%22%3A1704420001%2C%22recently_viewed_product%22%3A1704420001%2C%22recently_compared_product%22%3A1704420001%2C%22product_data_storage%22%3A1704420001%2C%22paypal-billing-agreement%22%3A1704420001%2C%22checkout-fields%22%3A1704420001%2C%22collection-point-result%22%3A1704420001%2C%22pickup-location-result%22%3A1704420001%2C%22messages%22%3A1704420001%7D",
+				"Referer": "https://www.silencershop.com/storelocator?store_group=store&flag=2",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": "curPage={page}&storegroup=store&latitude={latitude}&longitude={longitude}&kiosk=1",
+			"method": "post"
+		}
+	},
+	"globalordnance": {
+		"url": "https://globalordnance.com/checkout",
+		"locs": {
+			"url": "https://production-auto-ffl-app.20northmarketing.com/api/ffl/search",
+			"headers": {
+				"accept": "application/json, text/plain, */*",
+				"accept-language": "en-US,en;q=0.9,da;q=0.8",
+				"cache-control": "no-cache",
+				"content-type": "application/json",
+				"pragma": "no-cache",
+				"Referer": "https://globalordnance.com/",
+				"Referrer-Policy": "strict-origin-when-cross-origin"
+			},
+			"data": "{\"store_domain\":\"https://globalordnance.com\",\"zip_code\":\"{zipcode}\",\"radius\":200,\"store_hash\":\"mbf0s90jm7\"}",
+			"method": "post"
+		}
+	}
+}

@@ -1,0 +1,6 @@
+curl_cffi==0.5.9
+faust_cchardet==2.1.19
+lxml
+requests==2.28.1
+unicode_slugify==0.1.5
+more_itertools

@@ -1,0 +1,122 @@
+{
+	"sigsauer": {
+		"url": "https://sigsauer.com/dealer-locator",
+		"radius": 100,
+		"expected": null,
+		"paging_var": null
+	},
+	"gunbroker": {
+		"url": "https://gunbroker.com/ffl/index",
+		"radius": 50,
+		"expected": 25,
+		"paging_var": "PageIndex"
+	},
+	"budsgunshop": {
+		"url": "https://budsgunshop.com/ffl.php",
+		"radius": 100,
+		"expected": null,
+		"paging_var": null
+	},
+	"gunstores": {
+		"url": "https://gunstores.com/ez-search",
+		"radius": 25,
+		"expected": 11,
+		"paging_var": null
+	},
+	"rockriverarms": {
+		"url": "https://rockriverarms.com/index.cfm?fuseaction=page.display&page_id=25",
+		"radius": null,
+		"expected": null,
+		"paging_var": null
+	},
+	"impactguns": {
+		"url": "https://impactguns.com/ffl-dealer-lookup",
+		"radius": 100,
+		"expected": null,
+		"paging_var": null
+	},
+	"sportsmansguide": {
+		"url": "https://sportsmansguide.com/ffllookup",
+		"radius": 80,
+		"expected": null,
+		"paging_var": null
+	},
+	"midwayusa": {
+		"url": "https://midwayusa.com/ffl-near-me",
+		"radius": 100,
+		"expected": 25,
+		"paging_var": "page"
+	},
+	"grabagun": {
+		"url": "https://grabagun.com/ffl-locator",
+		"radius": 25,
+		"expected": 25,
+		"paging_var": null
+	},
+	"brownells": {
+		"url": "https://brownells.com/ffl-locator",
+		"radius": 100,
+		"expected": null,
+		"paging_var": null
+	},
+	"omahaoutdoors": {
+		"url": "https://omahaoutdoors.com/find-ffl",
+		"radius": 100,
+		"expected": null,
+		"paging_var": null
+	},
+	"palmettostatearmory": {
+		"url": "https://palmettostatearmory.com/ffl-locator.html",
+		"radius": 50,
+		"expected": null,
+		"paging_var": null
+	},
+	"browning": {
+		"url": "https://browning.com/dealers/dealer-locator.html",
+		"radius": 100,
+		"expected": null,
+		"paging_var": null
+	},
+	"smith-wesson": {
+		"url": "https://smith-wesson.com/dealer-locator",
+		"radius": 100,
+		"expected": null,
+		"paging_var": "page"
+	},
+	"ffl123": {
+		"url": "https://www.ffl123.com/class-3-dealers-list/",
+		"radius": null,
+		"expected": null,
+		"paging_var": null
+	},
+	"goexposoftware": {
+		"url": "https://www.ffl123.com/class-3-dealers-list/",
+		"radius": null,
+		"expected": null,
+		"paging_var": null
+	},
+	"sportsmans": {
+		"url": "https://www.sportsmans.com/store-pickup/1851962/pointOfServices",
+		"radius": null,
+		"expected": null,
+		"paging_var": null
+	},
+	"guns": {
+		"url": "https://www.guns.com/checkout",
+		"radius": 300,
+		"expected": null,
+		"paging_var": null
+	},
+	"silencershop": {
+		"url": "https://www.silencershop.com/storelocator?store_group=store&flag=2#",
+		"radius": 200,
+		"expected": 10,
+		"paging_var": "page"
+	},
+	"globalordnance": {
+		"url": "https://globalordnance.com/checkout",
+		"radius": 100,
+		"expected": null,
+		"paging_var": null
+	}
+}

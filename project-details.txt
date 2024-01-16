@@ -1,0 +1,21 @@
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site sigsauer`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site gunbroker`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site budsgunshop`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site gunstores`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site rockriverarms`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site impactguns`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site sportsmansguide`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site midwayusa`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site grabagun`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site brownells`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site omahaoutdoors`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site palmettostatearmory`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site browning`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site smith-wesson`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site ffl123`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site goexposoftware`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site sportsmans`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site guns`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site silencershop`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py export --site globalordnance`
+`cd C:\xampp\htdocs\projects\gunbrokers && python gunbrokers.py outputcsv`

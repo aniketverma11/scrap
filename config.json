@@ -1,0 +1,5 @@
+{
+	"proxy": "http://usa.rotating.proxyrack.net:9000",
+	"simplecacheconn": "host=localhost;user=root;password=;database=simplecache",
+	"threads": 1
+}
